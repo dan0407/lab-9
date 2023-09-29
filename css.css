@@ -1,29 +1,60 @@
-body {
-    font-family: sans-serif;
-  }
-  
-  #muro {
-    width: 500px;
-    margin: 0 auto;
-  }
-  
-  .publicacion {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .publicacion .titulo {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .publicacion .contenido {
-    font-size: 16px;
-  }
-  
-  .publicacion .fecha {
-    font-size: 12px;
-    color: #999;
-  }
-  
+#bar{
+    background-color: #eee;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    margin-right: -5px;
+    padding: 7px;
+    width: 100%;
+    min-width: 300px;
+
+
+}
+#bar:hover{
+    background-color: white;
+}
+
+
+#bar .section{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#bar .section.photo{
+    width: 35px;
+    
+}
+
+#bar .section.button{
+    padding-left: 7px;
+    width: 144px;
+
+}
+
+#bar.section.photo img{
+    border-radius: 50%;
+    width: 100%;
+    padding-right: 7px;
+
+}
+
+#bar .section input[type="text"]{
+    border: 0;
+    background: transparent;
+    outline: none;
+    width: 100%;
+
+}
+
+#bar .section button{
+    background: transparent;
+    border: 0;
+    color: #aaa;
+    cursor: pointer;
+
+}
+
+#bar .section button:hover{
+    color: #000;
+}
+
